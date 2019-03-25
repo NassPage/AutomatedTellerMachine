@@ -14,7 +14,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             @Html.ActionLink("My Web Portal", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <++div class="navbar-collapse collapse" id="navbarSupportedContent">
 
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item">@Html.ActionLink("Home", "Index", "Home", null, new { @class = "nav-link" })</li>
@@ -22,9 +22,9 @@
                     <li class="nav-item">@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link" })</li>
                 </ul>
                 @*@Html.Partial("_LoginPartial")*@
-            </div>
+            </++div>
         </div>
-    </nav>
+    </nav>   
 
     <div class="container body-content">
         @RenderBody()

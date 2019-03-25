@@ -26,5 +26,10 @@ namespace AutomatedTellerMachine.Controllers
 
             return View();
         }
+
+        //fo is a aliace for "about" page
+        public ActionResult Foo() {
+            return View("About");
+        }
     }
 }
